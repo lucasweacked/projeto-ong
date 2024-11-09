@@ -1,0 +1,39 @@
+.apresentacao,
+.redes_sociais {
+    padding: 4% 10%;
+}
+
+.apresentacao__sobre__conteudo__titulo,
+.redes_sociais__conteudo__titulo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--cor-texto);
+    font-family: var(--fonte-paragrafo);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.apresentacao__sobre__conteudo__paragrafo {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--cor-texto2);
+    font-family: var(--fonte-paragrafo);
+}
+
+.apresentacao__sobre__conteudo__paragrafo strong{
+    color: var(--cor-texto3);
+}
+
+.redes_sociais__conteudo {
+    text-align: center;
+}
+
+.redes_sociais__conteudo__redes img {
+    height: 3rem;
+
+}
+
+.redes_sociais__conteudo__redes a {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
