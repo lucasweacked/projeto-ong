@@ -1,36 +1,47 @@
 header {
-    width: 100%;
+  width: 100%;
 }
 
 .headbackground {
-    background: url(https://i.pinimg.com/736x/e1/e8/91/e1e8916b9f25693e2886dffd8ecd749d.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding-bottom: 400px;
-    color: white;
+  background: url(https://i.pinimg.com/736x/e1/e8/91/e1e8916b9f25693e2886dffd8ecd749d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-bottom: 400px;
+  color: white;
+  max-height: 100px;
 }
 
 .navegacao {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .headbackground h3 {
-    text-align: left;
-    font-size: 2rem;
-    padding: 1.5rem;
+  text-align: left;
+  font-size: 2rem;
+  padding: 1.5rem;
 }
 .navegacao a {
-    font-size: 1.5rem;
-    padding: 1.5rem 0px 1.5rem 1.5rem
-   
+  font-size: 1.5rem;
+  padding: 1.5rem 0px 1.5rem 1.5rem;
 }
 .navegacao button {
- margin-right: 1rem;
- margin-left: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1.5rem;
+}
+
+.titulo {
+  justify-items: center;
+  align-items: center;
+  grid-column: span 2;
+  margin-top: 5rem;
+}
+.titulo h1 {
+  font-size: 5rem;
+  text-align: center;
 }
